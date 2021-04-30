@@ -4,6 +4,11 @@ public class StringEquals {
 
     public static void main(String[] args) {
 
+        //When we create a String object using the new() operator, it always creates a new object in heap memory.
+        // On the other hand, if we create an object using String literal syntax e.g. “Hello World”, it may return an
+        // existing object from the String pool, if it already exists.
+        // Otherwise, it will create a new String object and put in the string pool for future re-use.
+
 
         // Declaring strings using "new String" and comparing them with ==
         String string1 = new String("Hello World");
