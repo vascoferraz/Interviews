@@ -1,18 +1,24 @@
 package org.vascoferraz.interviews.palindrome;
 
+import java.util.Scanner;
+
 public class StringPalindrome {
 
     public static void main(String[] args) {
 
-        String message = "test";
+        Scanner input = new Scanner(System.in);
+        System.out.print("Word to test: ");
+        String message = input.next();
+
+        String lowerCaseMessage = message.toLowerCase();
         String reversedMessage = "";
 
-        for (int i = message.length()-1 ; i >= 0 ; i--) {
+        for (int i = lowerCaseMessage.length()-1 ; i >= 0 ; i--) {
 
-            reversedMessage += message.charAt(i);
+            reversedMessage += lowerCaseMessage.charAt(i);
         }
 
-        if (message.equals(reversedMessage)) {
+        if (lowerCaseMessage.equals(reversedMessage)) {
             System.out.println("The string \"" + message + "\" is a palindrome");
         }
         else {
