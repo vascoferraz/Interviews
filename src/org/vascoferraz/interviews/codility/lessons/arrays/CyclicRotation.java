@@ -1,4 +1,4 @@
-package org.vascoferraz.interviews.codility.arrays;
+package org.vascoferraz.interviews.codility.lessons.arrays;
 
 public class CyclicRotation {
 

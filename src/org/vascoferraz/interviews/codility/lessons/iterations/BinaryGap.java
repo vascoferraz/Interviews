@@ -1,4 +1,4 @@
-package org.vascoferraz.interviews.codility.iterations;
+package org.vascoferraz.interviews.codility.lessons.iterations;
 
 public class BinaryGap {
 

@@ -1,4 +1,4 @@
-package org.vascoferraz.interviews.codility.timecomplexity;
+package org.vascoferraz.interviews.codility.lessons.timecomplexity;
 
 import java.util.Arrays;
 
